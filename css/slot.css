@@ -1,0 +1,97 @@
+html{
+    width: 100%;
+    overflow: hidden;
+}
+h1{
+    display: block;
+}
+.pos{
+    position: absolute;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-color:cadetblue;
+}
+.wrap{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    margin: 10px;
+}
+
+#divinp{
+    text-align: right;
+    padding-right: 10px;
+}
+
+#press{
+    font: bold 30px comic sans ms;
+    color: teal;
+}
+
+.tern{
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+}
+
+.allside{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 75px;
+    backface-visibility: hidden;
+}
+
+.front{
+    background-color: green;
+    color: red;
+}
+
+.back{
+    background-color: orange;
+    transform: rotateX(180deg);
+}
+
+.one{
+    transition: 1s;
+}
+
+.two{
+    transition: 1s;
+}
+
+.three{
+    transition: 1s;
+}
+
+button {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+
+#inp {
+    display: inline-block; /* Строчно-блочный элемент */
+    background: #8C959D; /* Серый цвет фона */
+    color: #fff; /* Белый цвет текста */
+    padding: 1rem 1.5rem; /* Поля вокруг текста */
+    text-decoration: none; /* Убираем подчёркивание */
+    border-radius: 3px; /* Скругляем уголки */
+}
+
+#menu{
+    margin: auto;
+}
